@@ -82,10 +82,10 @@ OUTPUT(learn-in-depth.elf elf32-littlearm)
  .debug_line    0x00000039       0x35 app.o
  .debug_line    0x0000006e       0x3d uart.o
 
-.debug_info     0x00000000      0x117
- .debug_info    0x00000000       0x4f startup.o
- .debug_info    0x0000004f       0x6c app.o
- .debug_info    0x000000bb       0x5c uart.o
+.debug_info     0x00000000      0x124
+ .debug_info    0x00000000       0x5c startup.o
+ .debug_info    0x0000005c       0x6c app.o
+ .debug_info    0x000000c8       0x5c uart.o
 
 .debug_abbrev   0x00000000       0xbf
  .debug_abbrev  0x00000000       0x14 startup.o
@@ -104,10 +104,10 @@ OUTPUT(learn-in-depth.elf elf32-littlearm)
  .debug_loc     0x00000000       0x2c app.o
  .debug_loc     0x0000002c       0x2c uart.o
 
-.debug_str      0x00000000       0x7d
- .debug_str     0x00000000       0x59 app.o
- .debug_str     0x00000059       0x24 uart.o
-                                 0x5b (size before relaxing)
+.debug_str      0x00000000       0x8a
+ .debug_str     0x00000000       0x66 app.o
+ .debug_str     0x00000066       0x24 uart.o
+                                 0x68 (size before relaxing)
 
 .debug_frame    0x00000000       0x54
  .debug_frame   0x00000000       0x2c app.o
